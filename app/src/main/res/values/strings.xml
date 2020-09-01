@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SplashScreenDemo</string>
+    <string name="maternoapp">MaternoApp</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="happy_parenting">Happy Parenting</string>
+    <string name="skip">Skip</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forget_password">Forgot Password.?</string>
+    <string name="signup">Sign Up</string>
+    <string name="expectedDelivery">Expected Delivery Date</string>
+</resources>
