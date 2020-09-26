@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "12832007011",
+    "firebase_url": "https://maternoapp-d8a4f.firebaseio.com",
+    "project_id": "maternoapp-d8a4f",
+    "storage_bucket": "maternoapp-d8a4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12832007011:android:bf2da044794be0efece956",
+        "android_client_info": {
+          "package_name": "com.tavleen.maternoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12832007011-p56fp0jf7h0vjai9olbr3etht8fcgvn0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tavleen.maternoapp",
+            "certificate_hash": "5f13b1746266b35dfd76129cfabc507ca9fef55b"
+          }
+        },
+        {
+          "client_id": "12832007011-k31j5v79jejvonk9f9bio2v1bqpqk4cn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA96djHZf8DQx2rfbB1fuogbS7pEi1jfwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12832007011-k31j5v79jejvonk9f9bio2v1bqpqk4cn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,10 +3,13 @@ import java.util.Calendar;
 import android.app.DatePickerDialog
 import android.content.Intent
 import android.os.Bundle
+import android.text.TextUtils
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_signup.*
 import java.util.*
 
@@ -16,6 +19,13 @@ class SignUpActivity : AppCompatActivity() {
     var eText: EditText? = null
     var btnGet: Button? = null
     var tvw: TextView? = null
+
+    private var email =""
+    private var password=""
+
+
+    private lateinit var auth: FirebaseAuth
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signup)
@@ -38,6 +48,41 @@ class SignUpActivity : AppCompatActivity() {
             )
             picker!!.show()
 
+        }
+
+        auth = FirebaseAuth.getInstance()
+
+
+        signupButton.setOnClickListener {
+
+            email=emailEditText.text.toString().trim()
+            password=passwordEditText.text.toString()
+            checkuser()
+        }
+
+    }
+
+    private fun checkuser() {
+
+        if (!TextUtils.isEmpty(email) && !TextUtils.isEmpty(email)) {
+
+            auth.createUserWithEmailAndPassword(email, password)
+                .addOnCompleteListener(this) { task ->
+                    if (task.isSuccessful) {
+                        startActivity(Intent(this,dashboard::class.java))
+                        finish()
+                    }
+                    else
+                    {
+                        Toast.makeText(this@SignUpActivity, "SignUp failed", Toast.LENGTH_SHORT).show()
+
+                    }
+                }
+        }
+
+
+        else {
+            Toast.makeText(this@SignUpActivity, "Enter Correct credentials", Toast.LENGTH_SHORT).show()
         }
     }
 }

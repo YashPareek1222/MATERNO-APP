@@ -9,7 +9,11 @@ import android.view.View
 import android.view.View.VISIBLE
 import android.view.Window
 import android.view.WindowManager
+import android.widget.Toast
 import androidx.core.content.ContextCompat
+import com.google.android.gms.tasks.OnCompleteListener
+import com.google.firebase.auth.AuthResult
+import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_main.afterAnimationView
 import kotlinx.android.synthetic.main.activity_main.rootView
@@ -17,6 +21,9 @@ import kotlinx.android.synthetic.main.activity_main.goToSignup
 import kotlinx.android.synthetic.main.activity_signup.*
 
 class MainActivity : AppCompatActivity() {
+
+
+    private lateinit var mAuth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,6 +45,12 @@ class MainActivity : AppCompatActivity() {
 
             override fun onTick(p0: Long) {}
         }.start()
+
+        mAuth = FirebaseAuth.getInstance()
+
+        loginButton.setOnClickListener {
+            login()
+        }
     }
 
     private fun startAnimation() {
@@ -62,5 +75,30 @@ class MainActivity : AppCompatActivity() {
 
             }
         })
+    }
+    private fun login() {
+        var email=emailEditTextLogin.text.toString().trim()
+        var password=passwordEditTextLogin.text.toString()
+        mAuth.signInWithEmailAndPassword(email, password)
+            .addOnCompleteListener(this,
+                OnCompleteListener<AuthResult?> { task ->
+                    if (task.isSuccessful) {
+                        // Sign in success, update UI with the signed-in user's information
+                        startActivity(Intent(this,dashboard::class.java))
+                        finish()
+                        //val user: FirebaseUser = mAuth.getCurrentUser()!!
+
+                    } else {
+                        // If sign in fails, display a message to the user.
+
+                        Toast.makeText(
+                            this, "Authentication failed.",
+                            Toast.LENGTH_SHORT
+                        ).show()
+
+                    }
+
+                    // ...
+                })
     }
 }
