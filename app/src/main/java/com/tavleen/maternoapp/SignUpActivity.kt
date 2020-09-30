@@ -86,6 +86,7 @@ class SignUpActivity : AppCompatActivity() {
         }
     }
 }
+
 // initial commit only
 // git init - to initialize the repo in local system
 //git remote add origin (link) - to connect local repo with github repo

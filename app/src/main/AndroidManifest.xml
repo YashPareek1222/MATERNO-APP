@@ -2,16 +2,33 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tavleen.maternoapp">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/baby1"
+        android:label="Materno"
+        android:roundIcon="@drawable/baby1"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".dashboard"></activity>
+        <activity android:name=".ThirdTrimester"></activity>
+        <activity android:name=".SecondTrimester" />
+        <activity android:name=".FirstTrimester" />
+        <activity android:name=".HealthTips" />
+        <activity android:name=".DietManager" />
+        <activity android:name=".MoodBooster" />
+        <activity android:name=".Workout" />
+        <activity android:name=".Todo" />
+        <activity
+            android:name=".Development"
+            android:label="@string/title_activity_development">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".dashboard" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

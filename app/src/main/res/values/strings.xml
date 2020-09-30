@@ -11,5 +11,22 @@
     <string name="forget_password">Forgot Password.?</string>
     <string name="signup">Sign Up</string>
     <string name="expectedDelivery">Expected Delivery Date</string>
-    
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_expected_delivery_date">Enter Expected Delivery Date</string>
+    <string name="sign__up">SIGN UP</string>
+    <string name="title_activity_development">Development</string>
+
+    <string name="Fdevelopment">From a tiny cluster of cells to a bouncing baby - fetal development is an amazing process. This period of nine months is divided into three trimesters. \nClick below to know how a fetus develops every trimester. </string>
+    <string name="first_trimester">First Trimester</string>
+    <string name="third_trimester">Third Trimester</string>
+    <string name="second_trimester">Second Trimester</string>
+    <string name="baby_looks_like">Here\'s how your baby looks like during this period of time</string>
+
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+
+
 </resources>
