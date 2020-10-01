@@ -13,15 +13,20 @@
     <string name="expectedDelivery">Expected Delivery Date</string>
     <string name="enter_your_email">Enter your email</string>
     <string name="enter_password">Enter Password</string>
-    <string name="enter_expected_delivery_date">Enter Expected Delivery Date</string>
-    <string name="sign__up">SIGN UP</string>
+    <string name="enter_expected_delivery_date">Enter Expected Delivery Date (Double-tap)</string>
+    <string name="sign__up">Create New Account</string>
     <string name="title_activity_development">Development</string>
 
     <string name="Fdevelopment">From a tiny cluster of cells to a bouncing baby - fetal development is an amazing process. This period of nine months is divided into three trimesters. \nClick below to know how a fetus develops every trimester. </string>
     <string name="first_trimester">First Trimester</string>
     <string name="third_trimester">Third Trimester</string>
     <string name="second_trimester">Second Trimester</string>
+    <string name="diet_first_trimester">First Trimester</string>
+    <string name="diet_second_trimester">First Trimester</string>
+    <string name="diet_third_trimester">First Trimester</string>
     <string name="baby_looks_like">Here\'s how your baby looks like during this period of time</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!--
     This string is used for square devices and overridden by hello_world in
@@ -29,4 +34,196 @@
     -->
 
 
+
+
+    <string name="first_trimester_subheading"><b>What to Eat in the First Trimester</b></string>
+    <string name="first_trimester_article"><b>Early pregnancy nausea, food aversions and fatigue can make eating for two a challenge in the
+        first trimester of pregnancy.\n\n
+    Between morning sickness, food aversions and fatigue, chowing down might be a low priority on your to-do list during the first trimester of pregnancy.
+
+    Your body is experiencing a surge in hormones right now, which can lead to nausea. The hormone progesterone in particular can trigger digestive
+        discomfort, including constipation and reflux.
+
+    In early pregnancy, many moms-to-be find that they have no desire to eat some of the healthy foods they used to love, such as fresh veggies or lean meats
+        (don\'t worry — for many pregnant women, appetite comes back in the second trimester).</b>
+    </string>
+
+    <string name="first_trimester_subheading2"><b>How many extra calories do you need during the first trimester?</b> </string>
+    <string name="first_trimester_article2"><b>During the first trimester, your baby\’s energy needs — like your baby! — are still quite small.
+        You should aim to eat about 2,000 calories a day in the first trimester, though your practitioner may recommend more depending on your activity level.
+        This number is pretty on par with typical adult nutrition recommendations.\n\n
+
+    Aim to eat three meals a day, plus one or two snacks. If you\'re having trouble with portion sizes, concentrate on quality — making sure that the
+        food you do manage to get down is both nutritious and tastes good to you at that moment. (We get it: sometimes what you\’re craving or what
+        you can stomach changes during pregnancy hour by hour.)</b></string>
+
+    <string name="first_trimester_subheading3"><b>What nutrients do you need during the first trimester? </b></string>
+    <string name="first_trimester_article3">\n
+       <b> <font fgcolor="red">•Folic acid:</font> This is the most essential micronutrient in terms of first trimester nutrition — and prenatal nutrition in general.
+        That\’s because folic acid (also known as vitamin B9 or folate, when it\’s in food form) plays a key role in preventing neural tube defects.\n\n
+
+        <font fgcolor="red">•Protein:</font> It\’s key for muscle development for both you and your baby, and supports uterine tissue growth.
+        Aim for about 75 grams per day (good sources include eggs, Greek yogurt and chicken).\n\n
+
+        <font fgcolor="red">•Calcium:</font> It\'s critical for the growth of your baby\’s teeth and bones. Since your growing baby will take calcium from your own stores,
+        too little calcium in your diet can result in brittle bones (osteoporosis) later on.\n\n
+
+        <font fgcolor="red">•Vitamin C:</font> C-rich foods like oranges, broccoli and strawberries help to promote bone and tissue development in your growing baby and
+        boost the absorption of iron.
+           You should aim for 85 milligrams per day.</b>
+    </string>
+
+
+    <string name="second_trimester_subheading"><b>What to eat during your second trimester</b></string>
+    <string name="second_trimester_article">
+        <b>The second trimester, the period between 14th to 26th week of pregnancy, is when your baby grows to about 35 cms.
+        Eating healthy food during the second trimester is as important as it was during the first.
+        Healthy food will continue to provide the essential nutrients during this time. A nutrient-rich diet is essential for the bone
+        and muscle formation of the baby. You should eat foods which are high in calcium, magnesium and vitamin D.\n\n
+        A healthy diet consists of:
+
+•carbohydrates\n
+•fats\n
+•proteins\n
+•vitamins\n
+•minerals\n
+•plenty of water\n
+        </b>
+    </string>
+    <string name="second_trimester_subheading2"><b>Essential Nutrients</b></string>
+    <string name="second_trimester_article2">
+        <b>During your second trimester, it’s especially important to eat foods that are rich in calcium, magnesium, and vitamin D.
+        These nutrients will help your baby grow strong bones and teeth.
+
+It’s also beneficial to eat foods containing omega-3 oils, which are vital for your baby’s brain development.\n
+
+Foods that contain one or more of these nutrients include:\n
+
+•avocado\n
+•broccoli\n
+•green beans\n
+•cabbage\n
+•carrots\n
+•Greek yogurt\n
+•pasteurized cheese\n
+•dried fruit\n
+•peanut butter\n
+•pumpkin seeds\n
+•sunflower seeds\n
+        </b>
+    </string>
+
+    <string name="second_trimester_subheading3"><b>What not to eat during the second trimester</b></string>
+    <string name="second_trimester_article3">
+        <b>There are a few foods that you should limit or avoid eating while you’re pregnant, including raw meat, eggs, and certain types of fish.\n\n
+        <font fgcolor="red">• Seafood -</font> Avoid eating large fish, such as swordfish, shark, and king mackerel. These fish are known to
+        contain high amounts of mercury,
+        a chemical element that can harm your baby.\n
+
+Try to limit your intake of other seafood to 8-12 ounces per weekTrusted Source, which is considered to be two to three average meal portions per week.
+        This includes seafood that’s relatively low in mercury\n\n
+
+        <font fgcolor="red">• Unpasteurized products - </font> Avoid consuming any unpasteurized products during pregnancy, as these may have
+        bacteria that can cause infections.
+        This includes unpasteurized milk, milk products, and juices.\n
+
+Certain soft cheeses are often made with unpasteurized milk and are best avoided unless the label clearly indicates that they’ve
+        been pasteurized or made with pasteurized milk.\n\n
+
+        <font fgcolor="red">•Caffeine - </font> It’s okay to drink coffee or other drinks with caffeine while you’re pregnant,
+        but try to limit your consumption to one or two cups per day.\n\n
+
+        <font fgcolor="red">•Alcohol - </font> Avoid alcohol completely while you’re pregnant. Drinking alcohol during pregnancy can cause birth defects
+        and other complications, including fetal alcohol syndrome.\n
+        </b>
+    </string>
+
+
+    <string name="third_trimester_subheading"><b>Nutritional Requirements In Third Trimester</b></string>
+    <string name="third_trimester_article">
+       <b> During the trimester, you need an additional 500 calories a day (1) to your basic caloric and protein needs. Here are the other nutrient details:\n\n
+
+•DHA is important for proper development of the fetal brain and retina during the third trimester. \n\n
+•You need a daily dose of 1,000mg calcium, which is essential to build bones and teeth in your baby. Milk and other dairy products, such as cheese and
+        yogurt, are the best sources of calcium.\n\n
+        •Vitamin D is needed for the bones to absorb calcium. You would need 15 µg per day.\n\n
+•With the progressing pregnancy, the iron requirement for fetal growth rises in proportion to the weight of the fetus, with most of the iron accumulating during the third trimester.  You would need 27mg of it every day.\n\n
+•Folic acid is essential to avoid neural defects in the baby. Your intake can go up to 800µg per day.\n\n
+       </b>
+    </string>
+
+    <string name="third_trimester_subheading2"><b>Foods You Should Have During The Third Trimester</b></string>
+    <string name="third_trimester_article2">
+        <b><font fgcolor="red">1. Fruits: </font>Fresh fruits are rich in vitamin C and play a vital role in the development and proper functioning of the placenta.
+        The vitamin absorbs iron from the food and helps in maintaining a strong immune system .In your third trimester,
+        you must take fresh fruits such as kiwis, strawberries, banana, and melon .\n\n
+
+        <font fgcolor="red">2. Lentils: </font>These are rich in thiamine (vitamin B1) and fiber .
+        You can make soup, porridge (dal), or stew with cooked lentils and have it in your meals\n\n
+
+        <font fgcolor="red"> 3. Ham and vegetable salad: </font>Vegetables are a rich source of vitamins and ham is a
+        thiamine booster that helps release energy from the food. A salad of radishes, tomatoes, lettuce, and sweet corn is an excellent inclusion in your diet during the third trimester.\n\n
+
+        <font fgcolor="red">4. Seeds and nuts: </font>Munching on seeds and nuts will provide you with sufficient amounts of thiamine,
+        essential omega-3 fatty acids, and proteins . You can snack on sunflower seeds and dry fruits such as hazelnuts, almonds,
+        and walnuts added to your breakfast cereals and cereal bars.\n\n
+        </b>
+    </string>
+
+    <string name="third_trimester_subheading3"><b>Healthy Diet Tips To Follow During The Third Trimester</b></string>
+    <string name="third_trimester_article3">
+       <b>Here are a few diet tips that you can follow:\n
+
+•Have small and frequent meals and never skip a meal.\n
+•Include all healthy food groups in your daily diet.\n
+•Drink lots of fluids to avoid dehydration and constipation.\n
+•Cut down on caffeinated beverages.\n
+•Quit smoking and eliminate alcohol.\n
+•Avoid foods that are high in salt, sugar, and fat. Consumption of excess salt can lead to water retention and ankle swellings.\n
+•Avoid swordfish, shark, white snapper fish, or mackerel because they are high in mercury content.\n
+•Do not consume unpasteurized milk.\n
+       </b>
+    </string>
+
+
+    <string name="workout_subheading"><b>The Best Pregnancy-Safe Exercises at Home and the Gym</b></string>
+    <string name="workout_article">The excitement (or sheer panic) you felt when you saw those two blue or pink lines appear
+        is likely something you’ll never forget. And now that you’re pregnant, you might be wondering what needs to change and what can stay the same.\n\n
+
+The good news? Staying active tops the list of things to keep for the next 9 months.\n
+
+And whether you’re looking to continue your current workout routine or start a new one, we’ve got you covered. From cardio and
+        strength training to stretching and core exercises, here’s everything you need to know about staying fit during your pregnancy.\n</string>
+
+    <string name="workout_subheading2"><b>List of exercises that are perfectly safe for pregnant women:</b></string>
+    <string name="workout_article2">
+        <b><font fgcolor="#E308A4">•Yoga –</font></b> Being gentle and not too strenuous, yoga exercises have no ill-effects on pregnant women’s health.
+        A study published in Obstetrics and Gynecology journal found that Yoga is safe for pregnant women.
+        Yoga helps boost flexibility so that you do not suffer from frequent injuries. It will also help tone your body and
+        provide mental clarity and improved concentration which a pregnant woman could benefit from.\n</string>
+    <string name="workout_article3">
+        <b><font fgcolor="#E308A4">•Planks – </font></b>Planks are perfectly fine for pregnant women too as they help tone your upper body along with
+        your legs and this comes in handy when delivering the baby. To do planks, you need to place your elbows below your shoulders on the floor,
+        and try to keep your body up in a straight position. You can also try moving onto your hands and staying in a push up position. Always
+        make sure your spine is straight so that your tummy doesn\’t start to sag.\n
+    </string>
+
+    <string name="workout_article4">\n
+        <b><font fgcolor="#E308A4">•Body Weight Workouts – </font></b>Doing pushups, raises, curls, squats and other basic body weight training exercises are not hazardous at all.
+        In fact, they are good for pregnant women as these exercises make it easier for women to lose their pregnancy weight later. However,
+        if you are trying weights, it would be best to stick to 20 lbs or less as you may injure yourself if you are just starting this routine.
+        \n
+    </string>
+    <string name="workout_article5">\n
+    <b><font fgcolor="#E308A4">•Supine Exercises – </font></b>By the time you reach the second and third trimester, you won’t be sleeping on your stomach any longer.
+    However, lying on your back should also be stopped as the weight from your stomach may compress certain organs or prevent the
+    blood from flowing to you or your baby. Hence, avoiding exercises that require you to lie on your back would be advisable.
+    Instead, choose sitting and standing exercises as these will give you a good workout without overdoing it.\n
+    </string>
+
+    <string name="workout_article6">\n
+    <b><font fgcolor="#E308A4">•Cat Yoga Pose – </font></b>The classic yoga pose is one of the favourites of many pregnant women and comes backed with several benefits.
+    From enhanced mobility, strengthening the lower back and abdomen, regular practice of the cat-cow pose can also encourage
+    the body to gradually adapt an easy and ideal birth position. Plus, it can be done anywhere- be it the bed or the floor.
+    </string>
 </resources>

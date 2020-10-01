@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Diet_FirstTrimester">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:textColor="#00000099"
+        >
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#14EE8300"
+            >
+
+
+            <TextView
+                android:id="@+id/first_trimester_subheading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:paddingTop="10sp"
+                android:paddingBottom="10sp"
+                android:text="@string/first_trimester_subheading"
+                android:textAlignment="center"
+                android:textColor="#E308A4"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                />
+
+            <ImageView
+                android:id="@+id/workout_image"
+                android:layout_width="380dp"
+                android:layout_height="500dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/prenatalnutrients_1sttrimester" />
+
+            <TextView
+                android:id="@+id/first_trimester_article"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:text="@string/first_trimester_article"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+
+
+            <TextView
+                android:id="@+id/first_trimester_subheading2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:paddingTop="20sp"
+                android:paddingBottom="10sp"
+                android:text="@string/first_trimester_subheading2"
+                android:textAlignment="center"
+                android:textColor="#E308A4"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/first_trimester_article2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:text="@string/first_trimester_article2"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/first_trimester_subheading3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:paddingTop="20sp"
+                android:paddingBottom="10sp"
+                android:text="@string/first_trimester_subheading3"
+                android:textAlignment="center"
+                android:textColor="#E308A4"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/workout_image2"
+                android:layout_width="380dp"
+                android:layout_height="270dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/pregnancy_nutrition" />
+
+            <TextView
+                android:id="@+id/first_trimester_article3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:text="@string/first_trimester_article3"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -59,6 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
+                android:inputType="textPassword"
                 android:hint="@string/enter_password"
                 android:textColor="@color/colorTextView"
                 android:textColorHint="@color/colorAccent"
@@ -75,13 +76,7 @@
                 android:textSize="15sp" />
 
 
-            <Button
-                android:id="@+id/button1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/editText1"
-                android:layout_marginRight="140dp"
-                android:text="Get Date" />
+
 
             <TextView
                 android:id="@+id/textView1"

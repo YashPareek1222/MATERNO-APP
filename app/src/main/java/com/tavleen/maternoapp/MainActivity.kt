@@ -85,6 +85,10 @@ class MainActivity : AppCompatActivity() {
                 OnCompleteListener<AuthResult?> { task ->
                     if (task.isSuccessful) {
                         // Sign in success, update UI with the signed-in user's information
+                        Toast.makeText(
+                            this, "Login Successful",
+                            Toast.LENGTH_SHORT
+                        ).show()
                         startActivity(Intent(this,dashboard::class.java))
                         finish()
                         //val user: FirebaseUser = mAuth.getCurrentUser()!!

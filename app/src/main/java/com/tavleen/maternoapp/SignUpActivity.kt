@@ -69,6 +69,7 @@ class SignUpActivity : AppCompatActivity() {
             auth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
+                        Toast.makeText(this@SignUpActivity, "User Registered ", Toast.LENGTH_SHORT).show()
                         startActivity(Intent(this,dashboard::class.java))
                         finish()
                     }

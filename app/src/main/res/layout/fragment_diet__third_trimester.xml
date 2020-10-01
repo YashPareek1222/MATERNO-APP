@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Diet_ThirdTrimester">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#14EE8300"
+            >
+
+
+            <TextView
+                android:id="@+id/third_trimester_subheading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:paddingTop="10sp"
+                android:paddingBottom="10sp"
+                android:text="@string/third_trimester_subheading"
+                android:textAlignment="center"
+                android:textColor="#E308A4"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+
+            <ImageView
+                android:id="@+id/workout_image"
+                android:layout_width="match_parent"
+                android:layout_height="563dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/prenatalnutrients_3rdtrimester"/>
+
+            <TextView
+                android:id="@+id/third_trimester_article"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:text="@string/third_trimester_article"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/third_trimester_subheading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:paddingTop="20sp"
+                android:paddingBottom="10sp"
+                android:text="@string/third_trimester_subheading2"
+                android:textAlignment="center"
+                android:textColor="#E308A4"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+
+
+            <TextView
+                android:id="@+id/third_trimester_article2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:text="@string/third_trimester_article2"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/third_trimester_subheading3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="sans-serif-medium"
+                android:paddingTop="20sp"
+                android:paddingBottom="10sp"
+                android:text="@string/third_trimester_subheading3"
+                android:textAlignment="center"
+                android:textColor="#E308A4"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/third_trimester_article3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:text="@string/third_trimester_article3"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -33,13 +33,7 @@ class dashboard : AppCompatActivity(){
             startActivity(Intent(this, DietManager::class.java))
         }
 
-        btnmood.setOnClickListener {
-            startActivity(Intent(this, MoodBooster::class.java))
-        }
 
-        btntips.setOnClickListener {
-            startActivity(Intent(this, HealthTips::class.java))
-        }
 
     }
 
