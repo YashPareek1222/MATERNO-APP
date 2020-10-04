@@ -10,7 +10,7 @@ class dashboard : AppCompatActivity(){
 
     private lateinit var mAuth:FirebaseAuth
 
-    override fun onCreate(savedInstanceState: Bundle?){
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
 
@@ -33,17 +33,18 @@ class dashboard : AppCompatActivity(){
             startActivity(Intent(this, DietManager::class.java))
         }
 
+        btnmood.setOnClickListener {
+            startActivity(Intent(this, MoodBooster::class.java))
 
 
-    }
-
-    private fun btnlogoutsetOnclickListener(){
-        btnlogout.setOnClickListener{
-            mAuth.signOut()
-            startActivity(Intent(this, MainActivity::class.java))
         }
     }
 
+        private fun btnlogoutsetOnclickListener() {
+            btnlogout.setOnClickListener {
+                mAuth.signOut()
+                startActivity(Intent(this, MainActivity::class.java))
+            }
+        }
 
-
-}
+    }

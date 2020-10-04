@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tavleen.maternoapp">
+    package="com.tavleen.maternoapp"
+    android:installLocation="preferExternal">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -14,20 +18,12 @@
         <activity android:name=".ThirdTrimester"></activity>
         <activity android:name=".SecondTrimester" />
         <activity android:name=".FirstTrimester" />
+        <activity android:name=".Development"/>
         <activity android:name=".HealthTips" />
         <activity android:name=".DietManager" />
         <activity android:name=".MoodBooster" />
         <activity android:name=".Workout" />
         <activity android:name=".Todo" />
-        <activity
-            android:name=".Development"
-            android:label="@string/title_activity_development">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity android:name=".dashboard" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".MainActivity">
@@ -40,3 +36,4 @@
     </application>
 
 </manifest>
+
